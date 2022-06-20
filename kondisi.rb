@@ -60,21 +60,44 @@
 # end
 
 # if bersarang
-jenis_kelamin = 'wanita'
-umur = 28
+# jenis_kelamin = 'wanita'
+# umur = 28
 
-if jenis_kelamin == 'pria'
-    if umur <= 27
-        puts 'kamu pria muda'
-    else
-        puts 'kamu pria tua'
-    end
-elsif jenis_kelamin == 'wanita'
-    if umur <= 25
-        puts 'kamu wanita muda'
-    else 
-        puts 'kamu wanita berkarir'
-    end   
+# if jenis_kelamin == 'pria'
+#     if umur <= 27
+#         puts 'kamu pria muda'
+#     else
+#         puts 'kamu pria tua'
+#     end
+# elsif jenis_kelamin == 'wanita'
+#     if umur <= 25
+#         puts 'kamu wanita muda'
+#     else 
+#         puts 'kamu wanita berkarir'
+#     end   
+# else
+#     puts 'jenis kelamin kamu, apa ya?'     
+# end
+
+
+jenis_kelamin = ''
+
+if jenis_kelamin == 'p'
+    puts 'perempuan'
+elsif jenis_kelamin == 'l'
+    puts 'laki-laki'
 else
-    puts 'jenis kelamin kamu, apa ya?'     
+    puts 'gak jelas'
 end
+
+jenis_kelamin = ""
+
+case jenis_kelamin     
+when 'p' 
+    puts 'perempuan'
+when 'l'
+    puts 'laki-laki'
+else
+    puts 'gak jelas'
+end
+
